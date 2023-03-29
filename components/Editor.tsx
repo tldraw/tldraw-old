@@ -112,7 +112,7 @@ function monkeyPatch(app: TldrawApp) {
     if ("tldrawFileFormatVersion" in file) {
       alert(
         // todo: update this message when we do the actual migration
-        "This file was created in a newer version of tldraw. Please visit beta.tldraw.com to open it."
+        "This file was created in a newer version of tldraw. Please visit www.tldraw.com to open it."
       );
       return null;
     }
